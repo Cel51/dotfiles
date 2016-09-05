@@ -13,10 +13,9 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'vim-perl/vim-perl'
-Plugin 'derekwyatt/vim-scala'
 Plugin 'yko/mojo.vim'
 Plugin 'nanotech/jellybeans.vim'
+Plugin 'valloric/youcompleteme'
 
 call vundle#end()
 filetype plugin indent on
@@ -65,6 +64,7 @@ set autoindent
 set smarttab
 
 autocmd FileType javascript setlocal tabstop=2 shiftwidth=2
+autocmd FileType ruby setlocal tabstop=2 shiftwidth=2
 autocmd FileType make setlocal nomodeline noexpandtab
 autocmd FileType perl setlocal tabstop=2 shiftwidth=2
 autocmd FileType php setlocal noexpandtab
